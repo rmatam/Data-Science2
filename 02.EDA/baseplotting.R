@@ -1,0 +1,10 @@
+library(datasets)
+with(airquality,plot(Wind,Ozone))
+title(main = "ozone and wind in the new york city")
+
+with(airquality,plot(Wind,Ozone,main = "ozone and wind in the new york city"))
+#with(subset(airquality,Month==10),points(Wind,Ozone,col="blue"))
+with(airquality,plot(Wind,Ozone,main = "ozone and wind in the new york city"))
+with(subset(airquality,Month==5),points(Wind,Ozone,col="red"))
+with(airquality,plot(Wind,Ozone,main = "ozone and wind in the new york city"))
+with(subset(airquality,Month==6),points(Wind,Ozone,col="Green"))
